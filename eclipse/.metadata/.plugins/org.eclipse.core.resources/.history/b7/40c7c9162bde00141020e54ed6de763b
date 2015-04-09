@@ -1,0 +1,15 @@
+package com.scoutmc.mcm;
+
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.SidedProxy;
+
+import com.scoutmc.mcm.proxy.CommonProxy;
+import com.scoutmc.mcm.refstrings.RefStrings;
+
+@Mod(modid = RefStrings.MOD_ID, name = RefStrings.MOD_NAME, version = RefStrings.MOD_VERSION)
+public class MCM {
+	
+	@SidedProxy(clientSide = RefStrings.CLIENT_PROXY_CLASS, serverSide = RefStrings.SERVER_PROXY_CLASS)
+	public static CommonProxy proxy;
+
+}

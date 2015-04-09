@@ -1,0 +1,28 @@
+package com.scoutmc.mcm.item;
+
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class ItemManager {
+	
+	//Making The Items
+	
+	public static Item infusion_tool;
+	
+	//Registering Items
+
+	public static void registerItems() {
+		
+		GameRegistry.registerItem(infusion_tool, "infusion_tool");
+		
+	}
+	
+	//Defining Items
+	
+	public static void defineItems() {
+		
+		infusion_tool = new ItemInfusionTool();
+		
+	}
+
+}

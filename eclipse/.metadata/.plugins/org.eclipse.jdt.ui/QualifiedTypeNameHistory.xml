@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.scoutmc.mcm.refstrings.RefStrings"/>
+<fullyQualifiedTypeName name="com.scoutmc.mcm.texture.TextureManager"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="com.scoutmc.mcm.item.ItemManager"/>
+</qualifiedTypeNameHistroy>

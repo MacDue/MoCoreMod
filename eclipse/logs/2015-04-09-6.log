@@ -1,0 +1,88 @@
+[15:46:17] [Server thread/INFO]: Starting minecraft server version 1.8
+[15:46:22] [Server thread/INFO]: Loading properties
+[15:46:22] [Server thread/INFO]: Default game type: SURVIVAL
+[15:46:22] [Server thread/INFO]: Generating keypair
+[15:46:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:46:23] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.8.0_31]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_31]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.readSavedFile(UserList.java:205) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadUserBansList(DedicatedPlayerList.java:124) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:31) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:500) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_31]
+[15:46:23] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.8.0_31]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_31]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.readSavedFile(UserList.java:205) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadIpBanList(DedicatedPlayerList.java:112) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:33) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:500) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_31]
+[15:46:23] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.8.0_31]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_31]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.readSavedFile(UserList.java:205) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadOpsList(DedicatedPlayerList.java:136) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:35) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:500) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_31]
+[15:46:23] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.8.0_31]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_31]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.readSavedFile(UserList.java:205) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.readWhiteList(DedicatedPlayerList.java:160) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:36) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:500) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_31]
+[15:46:23] [Server thread/INFO]: Preparing level "world"
+[15:46:25] [Server thread/INFO]: Preparing start region for level 0
+[15:46:27] [Server thread/INFO]: Preparing spawn area: 4%
+[15:46:28] [Server thread/INFO]: Preparing spawn area: 6%
+[15:46:29] [Server thread/INFO]: Preparing spawn area: 12%
+[15:46:30] [Server thread/INFO]: Preparing spawn area: 19%
+[15:46:31] [Server thread/INFO]: Preparing spawn area: 26%
+[15:46:32] [Server thread/INFO]: Preparing spawn area: 35%
+[15:46:33] [Server thread/INFO]: Preparing spawn area: 39%
+[15:46:34] [Server thread/INFO]: Preparing spawn area: 47%
+[15:46:35] [Server thread/INFO]: Preparing spawn area: 53%
+[15:46:36] [Server thread/INFO]: Preparing spawn area: 61%
+[15:46:38] [Server thread/INFO]: Preparing spawn area: 70%
+[15:46:39] [Server thread/INFO]: Preparing spawn area: 77%
+[15:46:40] [Server thread/INFO]: Preparing spawn area: 83%
+[15:46:41] [Server thread/INFO]: Preparing spawn area: 90%
+[15:46:42] [Server thread/INFO]: Preparing spawn area: 99%
+[15:46:42] [Server thread/INFO]: Done (18.703s)! For help, type "help" or "?"
+[15:47:29] [Server thread/WARN]: Can't keep up! Did the s[15:47:33] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:47:37] [Client thread/INFO]: Relo[15:47:45] [Server thread/INFO]: Could not op Player78
+[15:48:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@2d764326[id=<null>,name=Player78,properties={},legacy=false] (/127.0.0.1:55620) lost connection: Disconnected
+NFO]: Initializing LWJGL OpenAL
+[15:47:38] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:47:38] [Thread-6/INFO]: OpenAL initialized.
+[15:47:38] [Sound Library Loader/INFO]: Sound engine started
+[15:47:44] [Client thread/INFO]: Created: 512x512 textures-atlas
+[15:47:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mo' Core Mod
+[15:47:46] [Client thread/INFO]: SoundSystem shutting down...
+[15:47:47] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:47:47] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:47:47] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[15:47:47] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:47:47] [Thread-8/INFO]: OpenAL initialized.
+[15:47:47] [Sound Library Loader/INFO]: Sound engine started
+[15:47:51] [Client thread/INFO]: Created: 512x512 textures-atlas
+[15:48:39] [Client thread/INFO]: Connecting to localhost, 25565
+[15:48:55] [Client thread/INFO]: Stopping!
+[15:48:55] [Client thread/INFO]: SoundSystem shutting down...
+[15:48:55] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

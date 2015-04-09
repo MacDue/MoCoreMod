@@ -1,0 +1,11 @@
+package com.scoutmc.mcm.texture;
+
+public class TextureManager {
+	
+	public static void registerItemTextures() {
+		
+		
+		
+	}
+
+}

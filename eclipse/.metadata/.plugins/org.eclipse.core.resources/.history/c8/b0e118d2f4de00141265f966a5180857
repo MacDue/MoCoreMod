@@ -1,0 +1,17 @@
+package com.scoutmc.mcm.item;
+
+public class ItemManager {
+	
+	public static void registerItems() {
+		
+		
+		
+	}
+	
+	public static void defineItems() {
+		
+		
+		
+	}
+
+}

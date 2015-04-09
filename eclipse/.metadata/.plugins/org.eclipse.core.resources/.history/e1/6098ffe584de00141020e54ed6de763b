@@ -1,0 +1,27 @@
+package com.scoutmc.mcm.item;
+
+import net.minecraft.item.*;
+
+public class ItemManager {
+	
+	//Making The Items
+	
+	public static Item InfusionTool;
+	
+	//Registering Items
+
+	public static void registerItems() {
+		
+		
+		
+	}
+	
+	//Defining Items
+	
+	public static void defineItems() {
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.scoutmc.mcm.refstrings;
+
+public class RefStrings {
+	
+	public static final String MOD_ID = "mcm";
+	public static final String MOD_NAME = "Mo' Core Mod";
+	public static final String MOD_VERSION = "0.1 An Alpha";
+
+}

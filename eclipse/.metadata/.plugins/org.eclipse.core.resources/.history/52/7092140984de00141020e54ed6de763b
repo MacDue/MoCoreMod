@@ -1,0 +1,5 @@
+package com.scoutmc.mcm.item;
+
+public class ItemManager {
+
+}
