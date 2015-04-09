@@ -1,0 +1,23 @@
+package com.scoutmc.mcm.texture;
+
+import net.minecraft.client.Minecraft;
+
+public class TextureManager {
+	
+	/** Registering Item Textures */
+	
+	public static void registerItemTextures() {
+		
+		Minecraft.getMinecraft()
+		
+	}
+	
+	/** Registering Block Textures */
+	
+	public static void registerBlockTextures() {
+		
+		
+		
+	}
+
+}

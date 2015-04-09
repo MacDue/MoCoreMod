@@ -1,0 +1,26 @@
+package com.scoutmc.mcm.texture;
+
+import com.scoutmc.mcm.item.ItemManager;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+
+public class TextureManager {
+	
+	/** Registering Item Textures */
+	
+	public static void registerItemTextures() {
+		
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(ItemManager.InfusionTool, 0, ModelResourceLocation
+		
+	}
+	
+	/** Registering Block Textures */
+	
+	public static void registerBlockTextures() {
+		
+		
+		
+	}
+
+}
