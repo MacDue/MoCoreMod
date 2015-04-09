@@ -14,7 +14,7 @@ public class BlockEnd extends Block
 	GameRegistry.registerBlock(this, name);
 	setUnlocalizedName(name);
 //	setCreativeTab();
-the tab you want in there 
+//the tab you want in there 
 	}
 	
 	public String getName()
