@@ -14,6 +14,7 @@ import com.scoutmc.mcm.texture.TextureManager;
 
 @Mod(modid = RefStrings.MOD_ID, name = RefStrings.MOD_NAME, version = RefStrings.MOD_VERSION)
 public class MCM {
+        public static net.minecraft.block.Block YourBlock;
 	
 	/** Proxy */
 	
@@ -35,8 +36,8 @@ public class MCM {
 	
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) {
-		
-		
+	YourBlock = new BlockYourBlock().setStepSound(Block.soundTypeMetal).setHardness(3F).setLightLevel(1.0F).setResistance(3.0F);
+	//Lights Up!
 		
 	}
 	
