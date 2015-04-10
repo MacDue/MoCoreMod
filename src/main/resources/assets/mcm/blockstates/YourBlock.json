@@ -1,1 +1,5 @@
-Jsonfile
+{
+	"variants": {
+		"normal": { "model": "forge_theepicarnomod:YourBlock" }
+	}
+}
