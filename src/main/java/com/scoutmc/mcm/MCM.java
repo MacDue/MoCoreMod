@@ -12,9 +12,9 @@ import com.scoutmc.mcm.proxy.CommonProxy;
 import com.scoutmc.mcm.refstrings.RefStrings;
 import com.scoutmc.mcm.texture.TextureManager;
 
+//To make sure things work
 @Mod(modid = RefStrings.MOD_ID, name = RefStrings.MOD_NAME, version = RefStrings.MOD_VERSION)
 public class MCM {
-        public static net.minecraft.block.Block YourBlock;
 	
 	/** Proxy */
 	
