@@ -1,1 +1,30 @@
 
+package com.scoutmc.mcm.Blocks;
+import net.minecraft.block.Block;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class ItemManager {
+	//This might work can't test just editing on github
+	/** Blocks */
+	
+	public static Block YourBlock;
+
+
+	
+	public static void registerBlock() {
+		
+		GameRegistry.registerBlock(YourBlock, "YourBlock");
+		
+	}
+	
+
+	public static void defineBlocks() {
+		
+		YourBlock = new BlockYourBlock().setStepSound(Block.soundTypeMetal).setHardness(3F).setLightLevel(1.0F).setResistance(3.0F);
+	//Lights Up!
+		
+		
+	}
+
+}
