@@ -36,9 +36,7 @@ public class MCM {
 	
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) {
-	YourBlock = new BlockYourBlock().setStepSound(Block.soundTypeMetal).setHardness(3F).setLightLevel(1.0F).setResistance(3.0F);
-	//Lights Up!
-		
+
 	}
 	
 	@EventHandler
