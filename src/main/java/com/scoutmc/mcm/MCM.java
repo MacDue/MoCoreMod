@@ -26,7 +26,11 @@ public class MCM {
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
 		
+		//TODO Import block manager
+			        BlockManage.registerBlocks();
+	        BlockManage.defineBlocks();
 		ItemManager.registerItems();
+
 		ItemManager.defineItems();
 		
 		TextureManager.registerItemTextures();
