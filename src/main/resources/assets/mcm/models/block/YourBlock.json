@@ -1,1 +1,6 @@
-YourBlock Model
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "forge_theepicarnomod:blocks/YourBlock"
+	}
+}
